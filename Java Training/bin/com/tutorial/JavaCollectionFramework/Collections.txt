@@ -1,0 +1,60 @@
+Collection class is part of java.util package
+
+
+Collection : It a container with collection of objects.
+
+Interfaces and Implementations
+
+
+Set : Is a collection of objects with unique elements.It doesnt have any particular/regular Order
+Sorted Set : This is a sub interface for Set. This is allow ordering of set 
+
+ Set implementation Classes are : HashSet, Treeset and linkedHashset
+ 
+ 
+List: Is an ordererd collection of objects which allows duplicates. 
+
+Implementation Classes of List Interface : ArrayList ; It is similar to Array which can grow dynamically. It will have Natural Order.,LinkedList
+
+
+Queue: Is an ordered collection of objects similar to list.A queue is designed to have elements inserted at the end of the queue and elemets removed from 
+ 		the begining of the queue.
+ 		
+ 		wont have any implementations
+ 		
+Dequeue: This is subtype of java.util.queue interface. You can insert and remove an element at the starting or end of a queue.	
+Implementation : ArrayDeque,LinkedListDeque
+
+Map : This is a collection with  Key/value pair . Key is unique whereas value can be duplicates.
+
+key : can have primitive datatypes, Inbuilt java objects , UserObjects
+
+Implementation : HashMap,TreeMap,LinkedHashMap
+
+
+
+Generics : Added in Java5 . Generics adds a way to specify concreate types to general purpose classes. This provides us to avoid compile time errors
+
+
+Implementation :
+
+1) Based on Hash Table Implementation    : 
+2) based Resizable Array Implementation :
+3) based Tree implementation			: sorted form based on natural ordering or comparision
+4) based Linked List implmentation		: This is backed by double list .bidirectional
+5) based Hash Table and Linked list implementations : mix of hash table and link linked
+
+
+
+Example to Try :
+
+1) Convert Array to Set;
+2) Try to have a set,List and Map and then sort it ascending and descending  .. integers/Strings
+
+3) Try to create a class called :  CustomStack class . This will have push pop and peek methods .. these methods will work similar to stack class in java. ONly use Arrays or Arraylist to store objects
+
+
+
+
+
+

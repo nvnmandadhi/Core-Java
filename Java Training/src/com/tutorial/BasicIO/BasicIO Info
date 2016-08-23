@@ -1,0 +1,29 @@
+Basic IO
+
+Can read as Bytecode or Characters
+
+1) ByteCode  -- Stream : It reads/writes data as bytes
+ a) InputStream   : Is used to read data as bytes from Source using our program
+ b) OutStream      : Is a class used to write data from our program to destination
+  
+Sub Classes implementation of InputStream :
+ 
+ ByteArrayInputStream,FileInputStream,BufferedInputStream,DataInputStream,ObjectInputStream
+ 
+ 
+ Sub Classes implementation of InputStream :
+ 
+ ByteArrayOutStream,FileOutStream,BufferedOutStream,DataOutStream,ObjectOutStream
+ 
+ Examples or 
+ 
+ 2) Characters: 
+ 
+ a) Reader ; This Class is used to read data as characters
+ 
+ Example or subclasses : BufferedReader, CharArrayReader, FilterReader, InputStreamReader, PipedReader, StringReader
+ 
+ 
+ b) Writers : This Class is used to write data as characters
+ 
+ BufferedWriter, CharArrayWriter, FilterWriter, OutputStreamWriter, PipedWriter, PrintWriter, StringWriter
